@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-arcade {
+  font-family: 'Press Start 2P', monospace, cursive;
+}
+
+.font-retro {
+  font-family: 'VT323', monospace;
+}
+
+/* CRT Scanline & Neon Arcade FX */
+.arcade-glow-cyan {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.75), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+.arcade-glow-yellow {
+  text-shadow: 0 0 8px rgba(250, 204, 21, 0.8), 0 0 22px rgba(250, 204, 21, 0.45);
+}
+
+.arcade-glow-pink {
+  text-shadow: 0 0 8px rgba(236, 72, 153, 0.8), 0 0 22px rgba(236, 72, 153, 0.45);
+}
+
+.arcade-glow-green {
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.8), 0 0 20px rgba(34, 197, 94, 0.45);
+}
+
+.arcade-box-neon {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35), inset 0 0 15px rgba(6, 182, 212, 0.15);
+}
+
+.arcade-box-yellow {
+  box-shadow: 0 0 15px rgba(250, 204, 21, 0.35), inset 0 0 15px rgba(250, 204, 21, 0.15);
+}
+
+.arcade-crt-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}

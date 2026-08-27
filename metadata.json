@@ -1,0 +1,6 @@
+{
+  "name": "Retro Snake Arcade",
+  "description": "A single-page retro snake arcade game featuring customizable game modes, dynamic sound effects, local leaderboard, and responsive touch controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
